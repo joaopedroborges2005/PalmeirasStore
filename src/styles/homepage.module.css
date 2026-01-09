@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 .main {
     background-color: white;
     color: green;
@@ -8,6 +10,15 @@
     justify-content: center;
     align-items: center;
     gap: 15px;
+}
+
+.titulo {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 36px;
+
 }
 
 .logo {

@@ -3,6 +3,7 @@ import styles from "src/styles/homepage.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
+
 export default function HomePage() {
   return (
     <main className={styles.main}>
@@ -15,9 +16,11 @@ export default function HomePage() {
             height={80}
           />
         </div>
-        <h1>Palmeiras Store</h1>
+        <h1 className={styles.titulo}>Palmeiras Store</h1>
         <title>Palmeiras Store</title>
       </Link>
+
     </main>
   );
 }
+
